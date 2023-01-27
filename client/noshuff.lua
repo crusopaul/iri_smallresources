@@ -12,7 +12,7 @@ CreateThread(function()
                     end
                 end
             end
-        Wait(5)
+        Wait(0)
     end
 end)
 

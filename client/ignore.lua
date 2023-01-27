@@ -37,10 +37,11 @@ end)
 
 CreateThread(function()
 	while true do
-		Wait(1)
 		local ped = PlayerPedId()
+
 		if IsPedBeingStunned(ped) then
 			SetPedMinGroundTimeForStungun(ped, math.random(4000, 7000))
+            Wait(0)
 		else
 			Wait(1500)
 		end

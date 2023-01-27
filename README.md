@@ -2,6 +2,10 @@
 
 Base scripts for ESX-Framework :building_construction:
 
+## Changes
+
+This fork was created on 2023-01-27 by [crusopaul](https://github.com/crusopaul). Please refer to the public repository for detailed information on changes.
+
 ## Dependencies
 
 - [esx-legacy](https://docs.esx-framework.org/)

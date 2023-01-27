@@ -42,7 +42,7 @@ end)
 
 CreateThread(function()
     while true do
-        Wait(5)
+        Wait(0)
         if Vehicle.Vehicle then
             local ped = PlayerPedId()
             local vehClass = GetVehicleClass(Vehicle.Vehicle)

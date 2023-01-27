@@ -13,7 +13,7 @@ CreateThread(function()-- https://docs.fivem.net/natives/?_0x6806C51AD12B83B8
 		-- HideHudComponentThisFrame(11)		-- 11 : FLOATING_HELP_TEXT_1
 		-- HideHudComponentThisFrame(12)		-- 12 : FLOATING_HELP_TEXT_2
 		HideHudComponentThisFrame(13) -- 13 : CASH_CHANGE
-		HideHudComponentThisFrame(14) -- 14 : RETICLE
+		-- HideHudComponentThisFrame(14) -- 14 : RETICLE
 		-- HideHudComponentThisFrame(15)		-- 15 : SUBTITLE_TEXT
 		-- HideHudComponentThisFrame(16)		-- 16 : RADIO_STATIONS
 		HideHudComponentThisFrame(17) -- 17 : SAVING_GAME
@@ -24,7 +24,6 @@ CreateThread(function()-- https://docs.fivem.net/natives/?_0x6806C51AD12B83B8
 		HideHudComponentThisFrame(22) -- 22 : HUD_WEAPONS
 		DisableControlAction(1, 37)
 		DisplayAmmoThisFrame(true)
-
-		Wait(4)
+		Wait(0)
     end
 end)
